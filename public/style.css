@@ -1,0 +1,27 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&display=swap");
+
+body {
+  /* reset body margin */
+  margin: 0;
+  /* set main font */
+  font-family: "Recursive", sans-serif;
+  text-align: justify;
+}
+
+article {
+  /* limit article width */
+  max-width: 500px;
+  /* nice margin */
+  margin: 1rem;
+}
+
+article h1:first-of-type {
+  /* remove first h1 margin */
+  margin-top: 0;
+}
+
+article * {
+  /* set article element widths to match max */
+  max-width: 100%;
+}
